@@ -27,7 +27,7 @@ Once network access was stable, I focused on securing the system:
 - 👤 Created a restricted SMB user (no `sudo`, no root access)
 
 🔗 **See detailed Security documentation:**  
-[Security Branch: fail2ban-firewall.md](https://github.com/AJprogramming123/Raspberry_Pi/tree/Security)
+[Security Branch: fail2ban-firewall.md](https://github.com/AJprogramming123/Raspberry_Pi/Main/Security)
 
 ---
 
@@ -42,7 +42,7 @@ The centerpiece of the setup was building a **self-hosted file share** over a pr
 It works like a personal Google Drive without cloud dependency.
 
 🔗 **See full Samba + Tailscale configuration:**  
-[Network Branch: samba-setup.md](https://github.com/AJprogramming123/Raspberry_Pi/tree/Network)
+[Network Branch: samba-setup.md](https://github.com/AJprogramming123/Raspberry_Pi/Main/Network)
 
 ---
 
@@ -58,7 +58,7 @@ Tried adding a new WiFi adapter—but hit a wall:
 Sometimes the right move is just to wait for the upstream fix.
 
 🔗 **Troubleshooting log and commands:**  
-[Troubleshoot Branch: wifi-driver.md](https://github.com/AJprogramming123/Raspberry_Pi/tree/Troubleshoot)
+[Troubleshoot Branch: wifi-driver.md](https://github.com/AJprogramming123/Raspberry_Pi/Main/Troubleshoot)
 
 ---
 
@@ -74,7 +74,7 @@ Sometimes the right move is just to wait for the upstream fix.
 
 | Branch | Description |
 |--------|-------------|
-| [`Security`](https://github.com/AJprogramming123/Raspberry_Pi/tree/Security) | Hardening SSH, firewall, and VPN access |
-| [`Network`](https://github.com/AJprogramming123/Raspberry_Pi/tree/Network) | Samba setup and Tailscale integration |
-| [`Troubleshoot`](https://github.com/AJprogramming123/Raspberry_Pi/tree/Troubleshoot) | Kernel header mismatch and driver install attempts |
+| [`Security`](https://github.com/AJprogramming123/Raspberry_Pi/Main/Security) | Hardening SSH, firewall, and VPN access |
+| [`Network`](https://github.com/AJprogramming123/Raspberry_Pi/Main/Network) | Samba setup and Tailscale integration |
+| [`Troubleshoot`](https://github.com/AJprogramming123/Raspberry_Pi/Main/Troubleshoot) | Kernel header mismatch and driver install attempts |
 
