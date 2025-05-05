@@ -18,7 +18,7 @@
 
 --------------
 
-### 2.)<fail2ban-client status sshd>
+### 2.) fail2ban-client status sshd
 - Shows running jails and any banned IPs. This is useful letting me know that its working.
 ---------------
 
