@@ -1,6 +1,6 @@
 # Fail2ban & IPtable
 
-### 1.) <cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local>:
+### 1.)<cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local>:
     [sshd]
     enabled = true
     port = ssh
@@ -18,18 +18,18 @@
 
 --------------
 
-### 2.) <fail2ban-client status sshd>
+### 2.)<fail2ban-client status sshd>
 - Shows running jails and any banned IPs. This is useful letting me know that its working.
 ---------------
 
-### 3.) <apt install iptables>
+### 3.)<apt install iptables>
 - Manadatory step, when i was attempting to start/emable fail2ban all was missing was the iptables which is used to configure the Linux kernel's built-in firewall.
 - set up rules for filtering network traffic based on IP addresses, ports, protocols, and other network-related parameters.
 - basics fial2ban has their own built in commands to be able to ban these IP addresses it does it through the iptables.
 - 
 ---------------
 
-### 4.) <fail2ban-client set sshd unbanip <IP_ADDR>>
+### 4.)<fail2ban-client set sshd unbanip <IP_ADDR>>
 
 ---------------
 # Images
