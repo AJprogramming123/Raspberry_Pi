@@ -21,7 +21,7 @@
 - Shows running jails and any banned IPs. This is useful letting me know that its working.
 ---------------
 
-### 3.)<apt install iptables>
+### apt install iptables
 - Mandatory step: When I tried to start or enable Fail2Ban, I found that iptables was missing. This tool is essential for configuring the Linux kernel’s built-in firewall.
 - iptables sets up rules to filter network traffic based on IP addresses, ports, protocols, and other network parameters.
 - Fail2Ban has built-in commands to automatically use iptables to block IP addresses that show malicious behavior, such as repeated failed login attempts.
