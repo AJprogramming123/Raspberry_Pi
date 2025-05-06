@@ -27,7 +27,7 @@ Once network access was stable, I focused on securing the system:
 - Created a restricted SMB user (no `sudo`, no root access)
 
 🔗 **See detailed Security documentation:**  
-[Security Branch: fail2ban-firewall.md](https://github.com/AJprogramming123/Raspberry_Pi/tree/Main/Security)
+[Security Branch](https://github.com/AJprogramming123/Raspberry_Pi/tree/Main/Security)
 
 ---
 
