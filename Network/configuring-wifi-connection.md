@@ -1,5 +1,5 @@
-##Security
-# WPA/WPA2 Enterprise (vs. Personal)
+# Security
+## WPA/WPA2 Enterprise (vs. Personal)
 - WPA = (Wi-Fi Protected Access) - a standard for securing wireless networks.
   - Enterprise mode - Requires a login (username + password) and connects to a central authentication server (often RADIUS)
     - RADIUS - 
