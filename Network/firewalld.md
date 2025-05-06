@@ -20,5 +20,5 @@ I chose firewalld over ufw because it offers more granular control using zones a
   - This is for apply the changes.
 
   -------------------
-  ## Using Nmap to test if the scan worked
+## Using Nmap to test if the scan worked
   
